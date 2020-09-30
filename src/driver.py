@@ -39,7 +39,7 @@ class GenericResourceDriver(ResourceDriverInterface):
         self.cli = CLI()
 
     def get_inventory(self, context):
-        self.run_command(context, 'hostname')
+        # self.run_command(context, 'hostname')
 
         return AutoLoadDetails()
 
