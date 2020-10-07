@@ -1,5 +1,9 @@
-<Driver Description="Generic resource shell" MainClass="driver.GenericResourceDriver" Name="GenericResourceDriver" Version="0.1.0">
+<Driver Description="Describe the purpose of your CloudShell shell" MainClass="driver.CsGenericResourceG2Driver"
+        Name="CsGenericResourceG2Driver" Version="2.1.0" PythonVersion="3">
     <Layout>
-        <Command Name="run_command" DisplayName="Run Command" Tags="" Description="Run command on the resource"/>
+         <Category Name="Hidden Commands">
+            <Command Description="" DisplayName="Orchestration Save" Name="orchestration_save" />
+            <Command Description="" DisplayName="Orchestration Restore" Name="orchestration_restore" />
+        </Category>
     </Layout>
 </Driver>

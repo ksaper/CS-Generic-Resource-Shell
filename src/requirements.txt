@@ -1,3 +1,4 @@
-cloudshell-automation-api>=7.1.0,<7.2.0
-cloudshell-shell-core>=3.1.0,<3.2.0
-cloudshell-cli>=3.0.0,<3.1.0
+cloudshell-automation-api>=2020.1.0.178672,<2020.2
+cloudshell-cli==4.0.3
+cloudshell-shell-core>=5.0.5,<6.0.0
+cloudshell-logging==1.0.3

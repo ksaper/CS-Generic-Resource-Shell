@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*-
 
 """
-Tests for `GenericResourceDriver`
+Tests for `CsGenericResourceG2Driver`
 """
 
 import unittest
 
-from driver import GenericResourceDriver
+from driver import CsGenericResourceG2Driver
 
 
-class TestGenericResourceDriver(unittest.TestCase):
+class TestCsGenericResourceG2Driver(unittest.TestCase):
 
     def setUp(self):
         pass
